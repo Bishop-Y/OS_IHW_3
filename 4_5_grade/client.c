@@ -14,15 +14,11 @@ int main(int argc, char const *argv[]) {
     int port = DEFAULT_PORT;
     char ip[15] = DEFAULT_IP;
 
-    if (argc >= 3) {
-
-    }
-
     if (argc == 2) {
         inheritance_part = atoi(argv[1]);
     }
 
-    if (argc >= 4) {
+    if (argc == 4) {
         inheritance_part = atoi(argv[1]);
         strcpy(ip, argv[2]);
         port = atoi(argv[3]);

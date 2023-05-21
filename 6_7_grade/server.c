@@ -27,10 +27,6 @@ int main(int argc, char const *argv[]) {
         }
     }
 
-    if (argc >= 3) {
-
-    }
-
     if (argc == 4) {
         liar_heir = atoi(argv[1]);
         if (liar_heir < 0 || liar_heir > TOTAL_HEIRS) {
